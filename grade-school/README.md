@@ -5,6 +5,7 @@ for the school.
 
 In the end, you should be able to:
 
+<<<<<<< HEAD
 * Add a student's name to the roster for a grade
   * "Add Jim to grade 2."
   * "OK."
@@ -19,6 +20,22 @@ In the end, you should be able to:
     Grade 3…"
 
 Note that all our students only have one name. (It's a small town, what
+=======
+- Add a student's name to the roster for a grade
+  - "Add Jim to grade 2."
+  - "OK."
+- Get a list of all students enrolled in a grade
+  - "Which students are in grade 2?"
+  - "We've only got Jim just now."
+- Get a sorted list of all students in all grades.  Grades should sort
+  as 1, 2, 3, etc., and students within a grade should be sorted
+  alphabetically by name.
+  - "Who all is enrolled in school right now?"
+  - "Grade 1: Anna, Barb, and Charlie. Grade 2: Alex, Peter, and Zoe.
+    Grade 3…"
+
+Note that all our students only have one name.  (It's a small town, what
+>>>>>>> f26f8db9c0fc4d350429458a7e3a1cd563b8349e
 do you want?)
 
 ## For bonus points
@@ -26,7 +43,11 @@ do you want?)
 Did you get the tests passing and the code clean? If you want to, these
 are some additional things you could try:
 
+<<<<<<< HEAD
 * If you're working in a language with mutable data structures and your
+=======
+- If you're working in a language with mutable data structures and your
+>>>>>>> f26f8db9c0fc4d350429458a7e3a1cd563b8349e
   implementation allows outside code to mutate the school's internal DB
   directly, see if you can prevent this. Feel free to introduce additional
   tests.
@@ -37,7 +58,11 @@ experiment make the code better? Worse? Did you learn anything from it?
 ## Setup
 
 Go through the setup instructions for JavaScript to install the
+<<<<<<< HEAD
 necessary dependencies:
+=======
+ necessary dependencies:
+>>>>>>> f26f8db9c0fc4d350429458a7e3a1cd563b8349e
 
 http://exercism.io/languages/javascript/installation
 
@@ -65,5 +90,8 @@ Once you get a test passing, activate the next one by changing `xit` to `it`.
 A pairing session with Phil Battos at gSchool [http://gschool.it](http://gschool.it)
 
 ## Submitting Incomplete Solutions
+<<<<<<< HEAD
 
+=======
+>>>>>>> f26f8db9c0fc4d350429458a7e3a1cd563b8349e
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
